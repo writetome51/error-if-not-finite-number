@@ -1,0 +1,33 @@
+{
+  "name": "error-if-not-finite-number",
+  "version": "1.0.0",
+  "description": "Function triggers error if argument is not finite number of type 'number'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/error-if-not-finite-number.git"
+  },
+  "keywords": [
+    "error",
+    "message",
+    "not",
+   "number",
+   "finite",
+    "type-checking",
+    "type",
+    "check",
+    "data-type"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/error-if-not-finite-number/issues"
+  },
+  "homepage": "https://github.com/writetome51/error-if-not-finite-number#readme",
+  "dependencies": {
+    "@writetome51/is-finite-number": "~1.0.0"
+  }
+}
