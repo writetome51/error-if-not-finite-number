@@ -1,6 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", {value: true});
-var errorIfNotFiniteNumber = require("./index").errorIfNotFiniteNumber;
+import {errorIfNotFiniteNumber} from './index.js';
+
 
 let errorTriggered = false;
 try {
@@ -40,4 +39,3 @@ try {
 }
 if (errorTriggered) console.log('test 4 FAILED');
 else console.log('test 4 passed');
-

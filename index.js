@@ -1,10 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var isFiniteNumber_1 = require("@writetome51/is-finite-number");
+import { notFiniteNumber } from '@writetome51/is-finite-number';
 
 
-function errorIfNotFiniteNumber(arg) {
-    if (isFiniteNumber_1.notFiniteNumber(arg))
-        throw new Error("Input must be a finite number of type 'number'");
+export function errorIfNotFiniteNumber(arg) {
+	if (notFiniteNumber(arg)) throw new Error("Input must be a finite number of type 'number'");
 }
-exports.errorIfNotFiniteNumber = errorIfNotFiniteNumber;

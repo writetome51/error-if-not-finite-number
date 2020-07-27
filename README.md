@@ -6,10 +6,6 @@ Triggers error if `arg` is not finite number of type 'number' .
 `npm i  error-if-not-finite-number`
 
 ## Loading
-```ts
-// if using TypeScript:
+```js
 import { errorIfNotFiniteNumber } from 'error-if-not-finite-number';
-// if using ES5 JavaScript:
-var errorIfNotFiniteNumber = 
-    require('error-if-not-finite-number').errorIfNotFiniteNumber;
 ```
