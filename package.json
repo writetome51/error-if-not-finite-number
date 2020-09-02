@@ -1,6 +1,6 @@
 {
   "name": "error-if-not-finite-number",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Function triggers error if argument is not finite number of type 'number'",
   "type": "module",
   "main": "index.js",
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/writetome51/error-if-not-finite-number#readme",
   "dependencies": {
-    "@writetome51/is-finite-number": "^2.0.0"
+    "@writetome51/not": ">=2.0.0"
   }
 }

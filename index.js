@@ -1,6 +1,6 @@
-import { notFiniteNumber } from '@writetome51/is-finite-number';
+import { not } from '@writetome51/not';
 
 
 export function errorIfNotFiniteNumber(arg) {
-	if (notFiniteNumber(arg)) throw new Error("Input must be a finite number of type 'number'");
+	if (not(Number.isFinite(arg))) throw new Error("Input must be a finite number of type 'number'");
 }
